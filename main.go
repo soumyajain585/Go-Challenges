@@ -1,7 +1,5 @@
 package main
 
-import "root/Controllers"
-
 func main() {
 	//Controllers.Pointer()
 
@@ -17,7 +15,7 @@ func main() {
 
 	//Controllers.BracketString()
 
-	Controllers.TypeCasting()
+	//Controllers.TypeCasting()
 
 	//Controllers.Anonymous3()
 
@@ -30,4 +28,31 @@ func main() {
 
 	//Controllers.ReplaceMiddleWithCount("Hel")
 
+	//Controllers.TopKFrequent([]int{1, 2, 2, 3, 3, 3}, 2) // Output: [2, 3] or [3, 2]
+
+	// Controllers.TopKFrequent([]int{7, 7}, 1) // Output: [7]
+
+	// Controllers.IsAnagram("rat", "car")
+
+	// Controllers.CheckBracketValid("(}")
+
+	// Controllers.ShiftZero([]int{1, 0, 3, 0, 5, 0, 2, 0})
+
+	//Controllers.LenCapacity()
+
+	// Controllers.SecordLargest("47923")
+
+	//Controllers.AreAnagram("CALM", "CLAM")
+
+	//Controllers.FindVowelsFromString("soumya")
+
+	// Controllers.PingPong()
+
+	//Controllers.LenCapacity()
+
+	//Controllers.ShiftZerosAtLast()
+
+	// Controllers.NumberCrunching()
+
+	//Controllers.AggregateResponses(apiEndpoints)
 }
